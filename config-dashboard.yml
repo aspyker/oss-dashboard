@@ -1,0 +1,11 @@
+dashboard:
+    organizations: ['Netflix-Skunkworks']
+    data-directory: /oss-dashboard/output/data
+    reports: [ 'DocsReporter', 'LicenseReporter' ]
+    db-reports: [ 'UnknownMembersDbReporter', 'No2faDbReporter', 'WikiOnDbReporter', 'EmptyDbReporter' ]
+    www-directory: /oss-dashboard/output/www
+
+#    private-access: ['amznlabs']     # Optional
+#    report-path: ['/full/path/to/directory/of/custom/reports']  # Optional
+#    db-report-path: ['/full/path/to/directory/of/custom/db-reports']  # Optional
+#    map-user-script: /full/path/to/script   # Optional
